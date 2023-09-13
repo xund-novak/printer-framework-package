@@ -1,0 +1,82 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrinterFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Printer",
+        "printedName": "Printer",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Printer",
+                "printedName": "PrinterFramework.Printer",
+                "usr": "s:16PrinterFramework0A0V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16PrinterFramework0A0VACycfc",
+            "mangledName": "$s16PrinterFramework0A0VACycfc",
+            "moduleName": "PrinterFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "printText",
+            "printedName": "printText(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PrinterFramework0A0V9printTextyySSF",
+            "mangledName": "$s16PrinterFramework0A0V9printTextyySSF",
+            "moduleName": "PrinterFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16PrinterFramework0A0V",
+        "mangledName": "$s16PrinterFramework0A0V",
+        "moduleName": "PrinterFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
